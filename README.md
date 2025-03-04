@@ -28,6 +28,33 @@ The recruitment process is often time-consuming and labour intensive, with hirin
 
 
 
+## Usage
 
 
-##Usage
+- Install Python: Ensure you have Python installed on your system.
+
+- Create a Virtual Environment: Use virtualenv or conda to create a virtual environment.
+
+- Activate it using Terminal
+
+- Install Required Libraries: Install necessary libraries such as pandas, numpy, scikit-learn, nltk, flask, and streamlit.
+
+- Install Jupyter notebook or Visual Studio code
+
+- Collect Resumes: Gather a dataset of resumes in various formats (PDF, DOCX, TXT).
+
+- Extract Text: Use libraries like PyPDF2 for PDFs and python-docx for DOCX files to extract text.
+
+- TF-IDF Vectorization: Convert the cleaned text into numerical features using TF-IDF vectorization.
+
+- Word Embeddings: Optionally, use pre-trained word embeddings like Word2Vec or GloVe for better feature representation.
+
+- Label Data: Label the resumes based on job categories or relevance scores.
+
+- Create a Web Interface: Use Flask or Streamlit to create a web interface for uploading resumes and job descriptions.
+
+
+
+
+
+
