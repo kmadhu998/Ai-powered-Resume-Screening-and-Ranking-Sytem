@@ -55,6 +55,27 @@ The recruitment process is often time-consuming and labour intensive, with hirin
 
 
 
+You're all set! The app should be up and running now at http://localhost:8080/.
+For more info about usage checkout YouTube video.
+
+
+
+
+
+
+
+
+## License
+
+The code in this repository is licensed under the MIT License. This means that you are free to use, modify, and distribute the code, as long as you include the original copyright and license notice. 
+
+
+
+
+## THANK YOU :)
+
+
+
 
 
 
