@@ -21,10 +21,9 @@ The recruitment process is often time-consuming and labour intensive, with hirin
 
 ## Installation
 - Create a Virtual environment 
-- Instal jupyter notebook
-- Instal pip for phython dependencies
+- Instal jupyter notebook or visual code
+- Instal pip for python dependencies
 - Download streamlit 
-- Install Visual code
 
 
 
@@ -51,7 +50,7 @@ The recruitment process is often time-consuming and labour intensive, with hirin
 
 - Label Data: Label the resumes based on job categories or relevance scores.
 
-- Create a Web Interface: Use Flask or Streamlit to create a web interface for uploading resumes and job descriptions.
+- Create a Web Interface: Use Streamlit to create a web interface for uploading resumes and job descriptions.
 
 
 
