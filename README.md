@@ -1,80 +1,50 @@
-# Ai-powered-Resume-Screening-and-Ranking-Sytem
-Ai-powered resume Screeing and ranking System
+# AI-Powered Resume Screening and Ranking System 📄🤖  
 
-The recruitment process is often time-consuming and labour intensive, with hiring managers and recruiters manually reviewing numerous resumes to identify top candidates.The traditional ways of resume screening are time-consuming and biased. To address these challenges a solution to automate this process through machine learning techniques.the aim is to improve the efficiency and accuracy of selecting candidates that are best suited for each job role without the use of complex techniques and provide equally good results.
+An intelligent system that leverages **Natural Language Processing (NLP)** and **Machine Learning (ML)** to automate and optimize the resume screening process.  
+The system analyzes resumes and job descriptions, matches candidates to job requirements, and ranks them based on relevance, thereby reducing human bias, improving efficiency, and enhancing the recruitment experience.  
 
+---
 
+## 🔑 Key Features
+- **Automated Resume Parsing** – Extracts structured data (skills, education, experience) from resumes (PDF, DOCX, etc.).  
+- **Job Description Analysis** – Identifies required skills, qualifications, and experience.  
+- **Candidate Matching & Ranking** – Compares resumes with job requirements using AI/ML models.  
+- **Bias Reduction** – Integrates fairness-aware algorithms to minimize unconscious biases.  
+- **User-Friendly Interface** – Interactive dashboard (Streamlit-based) for uploading resumes and job descriptions.  
+- **Analytics & Reporting** – Provides insights on candidate selection and hiring trends.  
 
+---
 
-## Features
-- offers the opportunity to explore new techniques and approaches in AI, NLP, and machine learning.
-- Addresses a common pain point in the hiring process, making it a valuable solution for businesses and recruiters.
-- resume screening system can be scaled up to handle large volumes of resumes, making it a valuable solution for businesses of all sizes.
+## ⚙️ Tech Stack
 
+**Languages & Libraries:**  
+- Python (primary language)  
+- NLP Libraries – NLTK, SpaCy, Hugging Face Transformers  
+- ML Models – SVM, Naive Bayes, XGBoost, KNN, BERT  
 
-## Requirements
+**Frameworks & Tools:**  
+- Streamlit (Frontend UI)  
+- Scikit-learn, TensorFlow/PyTorch (Model training)  
+- Pandas, NumPy (Data preprocessing)  
 
- - Jupyter Notebook
- - Visual Code
- - Streamlit
+**Storage:**  
+- PostgreSQL / MySQL for structured candidate data  
+- MongoDB / Vector DB (Pinecone, Weaviate) for embeddings  
 
+---
 
-## Installation
-- Create a Virtual environment 
-- Instal jupyter notebook or visual code
-- Instal pip for python dependencies
-- Download streamlit 
+## 📊 System Workflow
+1. Upload **Job Description** & **Resumes**  
+2. Preprocessing using **TF-IDF / Transformer embeddings**  
+3. Similarity computation with **Cosine Similarity / ML ranking models**  
+4. Candidate ranking and display on dashboard  
 
+---
 
+## 🚀 Getting Started
 
-## Usage
-
-
-- Install Python: Ensure you have Python installed on your system.
-
-- Create a Virtual Environment: Use virtualenv or conda to create a virtual environment.
-
-- Activate it using Terminal
-
-- Install Required Libraries: Install necessary libraries such as pandas, numpy, scikit-learn, nltk, flask, and streamlit.
-
-- Install Jupyter notebook or Visual Studio code
-
-- Collect Resumes: Gather a dataset of resumes in various formats (PDF, DOCX, TXT).
-
-- Extract Text: Use libraries like PyPDF2 for PDFs and python-docx for DOCX files to extract text.
-
-- TF-IDF Vectorization: Convert the cleaned text into numerical features using TF-IDF vectorization.
-
-- Word Embeddings: Optionally, use pre-trained word embeddings like Word2Vec or GloVe for better feature representation.
-
-- Label Data: Label the resumes based on job categories or relevance scores.
-
-- Create a Web Interface: Use Streamlit to create a web interface for uploading resumes and job descriptions.
-
-
-
-You're all set! The app should be up and running now at http://localhost:8080/.
-For more info about usage checkout YouTube video.
-
-
-
-
-
-
-
-
-## License
-
-The code in this repository is licensed under the MIT License. This means that you are free to use, modify, and distribute the code, as long as you include the original copyright and license notice. 
-
-
-
-
-## THANK YOU :)
-
-
-
-
-
-
+### Prerequisites
+- Python 3.9+  
+- Install dependencies:  
+```bash
+pip install -r requirements.txt
